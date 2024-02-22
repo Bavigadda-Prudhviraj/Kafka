@@ -5,7 +5,7 @@ import java.util.Properties;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
-public class OrderProducer {
+public class OrderProducer{
 
 	public static void main(String[] args) {
 		//a new instance of the Properties class is created. 
