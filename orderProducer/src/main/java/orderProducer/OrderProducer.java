@@ -44,7 +44,7 @@ public class OrderProducer{
 		}
 		//and finally closes the Kafka producer using the close method.
 		finally {
-			kafkaProducer.close();
+			kafkaProducer.close() ;
 		}
 	}
 	
